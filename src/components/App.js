@@ -3,7 +3,7 @@ import TestJSX from './TestJSX';
 import Condition from './Condition';
 import AffichageBoucle from './AffichageBoucle'
 import Banner from './Banner'
-
+import PageParent from './PageParent'
 import { useState } from 'react';
 
 import {
@@ -23,6 +23,9 @@ function App() {
         </Route>
 
         <Route path="/AffichageBoucle" element={<AffichageBoucle />}>
+        </Route>
+
+        <Route path="/PageParent" element={<PageParent />}>
         </Route>
       </Routes>
     </div>

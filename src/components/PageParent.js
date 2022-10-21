@@ -1,6 +1,7 @@
 import '../style/PageParent.css';
+import Tamere from './PageEnfant';
 
-function PageParent() {
+function PageParent(PageEnfant) {
     let User = [
     {
         nom : "Laury", 
@@ -12,7 +13,8 @@ function PageParent() {
 
   return (
     <div className="PageParent">
-        
+        <Tamere User={User}/>
+
     </div>
   )
 }

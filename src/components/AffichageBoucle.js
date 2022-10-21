@@ -7,8 +7,7 @@ function AffichageBoucle() {
         <div className="AffichageBoucle">
                 {fruit.map((fruit, index) => (
         <div>         
-            je vous propose le fruits suivant : 
-            {fruit}
+            je vous propose le fruits suivant : {fruit}
         </div>
         ))}
     </div>
