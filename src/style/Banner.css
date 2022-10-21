@@ -1,0 +1,16 @@
+.banner{
+    padding: 5px;
+    align-items: center;
+    color: black;
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.ProduitNav{
+    display: flex;
+    padding: 5px;
+}
+
+.elementNav{
+    padding: 5px;
+}
