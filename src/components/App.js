@@ -4,6 +4,7 @@ import Condition from './Condition';
 import AffichageBoucle from './AffichageBoucle'
 import Banner from './Banner'
 import PageParent from './PageParent'
+import Calculatrice from './Calculatrice'
 import { useState } from 'react';
 
 import {
@@ -26,6 +27,9 @@ function App() {
         </Route>
 
         <Route path="/PageParent" element={<PageParent />}>
+        </Route>
+
+        <Route path="/Calculatrice" element={<Calculatrice />}>
         </Route>
       </Routes>
     </div>
