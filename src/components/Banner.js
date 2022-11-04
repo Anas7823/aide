@@ -20,6 +20,9 @@ function Banner(){
             <Link to='/PageParent'>
                 <h4 className='elementNav'>PageParent</h4>
             </Link>
+            <Link to='/Calculatrice'>
+                <h4 className='elementNav'>Calculatrice</h4>
+            </Link>
         </div>
          
     </div> 

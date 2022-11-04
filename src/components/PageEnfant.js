@@ -5,7 +5,12 @@ function PageEnfant(props) {
     <div className="PageParent">
         {props.User.map((utilisateur) => (
             <div>
-               {utilisateur.nom}
+               <br/>
+
+               {utilisateur.nom} <br/>
+               {utilisateur.prenom}
+               
+
             </div>
         ))}
     </div>

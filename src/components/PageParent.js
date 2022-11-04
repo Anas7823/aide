@@ -3,7 +3,11 @@ import Tamere from './PageEnfant';
 
 function PageParent(PageEnfant) {
     let User = [
-    {
+      {
+        nom : "EL KHIAT", 
+        prenom: "Anas"
+      },
+      {
         nom : "Laury", 
         prenom: "Nathan"
       },
